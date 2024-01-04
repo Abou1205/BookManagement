@@ -82,5 +82,5 @@ Follow these steps to set up the project on your local machine:
 
 ## Gif
 
-![](src/video.mp4)
-# BookManagement
+![](src/video.gif)
+
