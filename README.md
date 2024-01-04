@@ -1,70 +1,86 @@
-# Getting Started with Create React App
+# Book Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A simple React application for managing your book collection. Add, delete, edit, and mark books as read with ease.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#features)
+- [Libraries](#libraries)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [Gif](#gif)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Overview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This React application serves as a book management system, allowing users to keep track of their book collection. The app provides a user-friendly interface for adding new books, marking books as read or unread, editing book details, and deleting books from the collection.
 
-### `npm test`
+## Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Add New Books:** Enter a book name and timestamp to add a new book to your collection.
 
-### `npm run build`
+- **Mark as Read/Unread:** Click on a book card to toggle between marking it as read or unread.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Edit Book Details:** Modify book details such as the title, date, and read status.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Delete Books:** Remove books from your collection with the click of a button.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Libraries
 
-### `npm run eject`
+The following libraries are used in this project:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **React:** A JavaScript library for building user interfaces.
+- **React Toastify:** A library for displaying toast notifications in React applications.
+- **UUID:** A library for generating unique identifiers.
+- **React Router:** A library for navigation in React applications.
+- **Bootstrap:** A popular front-end framework for building responsive and stylish web pages.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Getting Started
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Follow these steps to set up the project on your local machine:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. **Clone the Repository:**
 
-## Learn More
+    ```bash
+    git clone https://github.com/your-username/book-management-app.git
+    ```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+2. **Install Dependencies:**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+    ```bash
+    cd book-management-app
+    npm install
+    ```
 
-### Code Splitting
+3. **Run the Development Server:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    ```bash
+    npm start
+    ```
 
-### Analyzing the Bundle Size
+4. **Open in Browser:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    Open [http://localhost:3000](http://localhost:3000) in your web browser to access the application.
 
-### Making a Progressive Web App
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+1. **Add New Book:**
+   - Enter a book name in the input field.
+   - Click the "Add" button to add the book to your collection.
 
-### Advanced Configuration
+2. **Mark as Read/Unread:**
+   - Click on a book card to toggle between marking it as read or unread.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+3. **Edit Book Details:**
+   - Click the "Edit" button on a book card.
+   - Modify the book details as needed.
+   - Click "Save" to update the book details.
 
-### Deployment
+4. **Delete Book:**
+   - Click the "Delete" button on a book card to remove it from your collection.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Gif
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![](src/video.mp4)
+# BookManagement
